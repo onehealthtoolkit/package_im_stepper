@@ -16,6 +16,9 @@ enum Shape {
   /// Vertical round edged pipes, if the direction is `Axis.horizontal` and horizontal round edged pies, if the direction is `Axis.vertical`.
   pipe2,
 
+  /// Horizontal butt with rounded corners.
+  pipe3,
+
   // Circle with a hole in the middle.
   ring,
 }
